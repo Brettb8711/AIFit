@@ -1,12 +1,19 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import AppNavigator from './navigation';
+import AppNavigator, { AppNavigator as NamedAppNavigator } from './navigation';
 
+// Debug: ensure AppNavigator import resolves to a component
+// eslint-disable-next-line no-console
+console.log('DEBUG: AppNavigator default =>', AppNavigator);
+// eslint-disable-next-line no-console
+console.log('DEBUG: AppNavigator named =>', NamedAppNavigator);
+
+// App was expecting a Function component
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <AppNavigator />
+      <NamedAppNavigator />
       <StatusBar style="auto" />
     </SafeAreaView>
   );

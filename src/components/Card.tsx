@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Card: React.FC<{ title: string; subtitle?: string }> = ({ title, subtitle }) => {
+export const Card: React.FC<{ title: string; subtitle?: string }> = ({ title, subtitle }) => {
   return (
     <View style={styles.card}>
       <Text style={styles.cardTitle}>{title}</Text>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Header: React.FC<{ title?: string }> = ({ title = 'AIFit' }) => {
+export const Header: React.FC<{ title?: string }> = ({ title = 'AIFit' }) => {
   return (
     <View style={styles.header}>
       <Text style={styles.title}>{title}</Text>

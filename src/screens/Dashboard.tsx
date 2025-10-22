@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, ScrollView, StyleSheet } from 'react-native';
-import Header from '../components/Header';
-import Card from '../components/Card';
+import { Header } from '../components/Header';
+import { Card } from '../components/Card';
 
 const Dashboard: React.FC = () => {
   return (
