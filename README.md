@@ -1,31 +1,50 @@
-# AIFit
-A novel Machine Learning Implementation designed to act as a web service and application using React. The goal is to create an AI personal trainer that can help anyone, young or old, helping with activities ranging from Physical Therapy to specific sports training.
+# Welcome to your Expo app 👋
 
-A starter cross-platform dashboard for AIFit. This scaffold uses Expo + React Native with TypeScript so the same codebase can target web, iOS and Android with minimal changes.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Why this stack?
-- React Native + Expo lets you write one UI in TypeScript/React and run it on mobile (iOS/Android) and web using `react-native-web`. That makes porting between phone apps and a browser dashboard straightforward.
-- Expo handles a lot of native build configuration, speeding up iteration during UI development.
+## Get started
 
-What I created
-- Minimal Expo project files: `package.json`, `app.json`, `tsconfig.json`, `babel.config.js`.
-- Basic app in `src/` with `App.tsx`, a `Dashboard` screen and small `Header`/`Card` components.
+1. Install dependencies
 
-How to run (Windows PowerShell)
-1. Install dependencies (npm):
+   ```bash
+   npm install
+   ```
 
-```powershell
-npm install
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
 ```
 
-2. Start Expo (web + device options):
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-```powershell
-npm run start
-# then press 'w' to open web, 'a' for Android (if set up), 'i' for iOS (mac only)
-```
+## Learn more
 
-Notes & next steps
-- I'll leave the ML model integration points open. The Dashboard components are designed to receive data via simple props or an HTTP API. When you're ready, we can add an API layer (REST or GraphQL) and a local persistence store.
-- Suggested next tasks: navigation with React Navigation, state management (Redux / Zustand / Context), authentication, and data sync.
+To learn more about developing your project with Expo, look at the following resources:
 
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
